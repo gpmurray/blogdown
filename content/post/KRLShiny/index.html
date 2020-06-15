@@ -1,0 +1,25 @@
+---
+title: "KRLS Shiny App"
+author: "Galen Murray"
+date: "2020-06-12"
+output: html_document
+header:
+  image: ""
+  caption: ""
+image:
+  placement: 3
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  focal_point: "Center"
+  preview_only: false
+---
+
+
+
+<div id="criminal-mlas-and-nregs-projects" class="section level2">
+<h2>Criminal MLAs and NREGS Projects</h2>
+<p>This shiny app provides Kernel Regularized Least Squares (KRLS) Marginal effects for delivery of NREGS projects by Members of the Legislative Assembly (MLAs). Results are for a random subsample of 5,000 polling stations in order to fit the data in the shinyapp free tier. Results are similar for OLS and KRLS on 50% random sample of the data.</p>
+<p>MLAs charged with serious crimes are associated with more NREGS projects completed. This is true across the range of political competition of polling stations with the trend in marginal effects increasing for polling stations that the criminal MLA won by more than 50%. In other words there is some evidence consistent with criminal politicians associated with higher NREGS delivery in core support areas, though this targeting effect is substantively small.</p>
+<iframe src="https://galenmurray.shinyapps.io/KRLShiny/" style="border: none; width: 800px; height: 500px">
+</iframe>
+<p>H/T to <a href="https://github.com/rdrr1990/bigKRLS">Pete Mohanty</a> and his bigKRLS package that creates these wonderful shiny apps to explore and easily share KRLS results with collaborators!</p>
+</div>

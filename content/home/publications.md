@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "Recent Publications"
+title = "Working Papers"
 subtitle = ""
 
 [content]
@@ -28,7 +28,6 @@ subtitle = ""
     tag = ""
     category = ""
     publication_type = ""
-    author = ""
     exclude_featured = false
   
 [design]
@@ -67,6 +66,14 @@ subtitle = ""
  css_class = ""
 +++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+- Galen Murray {{% staticref "files/Galen Murray_Criminal_RDD.pdf" %}}Do criminally charged politicians deliver? Evidence from India's National Rural Employment Guarantee Scheme{{% /staticref %}}.
+
+- Galen Murray {{% staticref "files/Galen Murray_PDS_Multilevel.pdf" %}}Criminal Politicians and Public Distribution System Corruption: Investigating Leakage in Bihar's PDS{{% /staticref %}}.
+
+- Galen Murray {{% staticref "files/" %}}Criminal Targets: spatial analysis of NREGS distribution to core supporters in India{{% /staticref %}}.
+
+- Galen Murray and Megan West {{% staticref "files/Galen Murray Megan West _Jharkhand Biometric.pdf" %}}Do bureaucrats show up? An analysis of bureaucratic attendance in Jharkhand, India{{% /staticref %}}.
+
+- Chao-Yo Cheng, YuJung Lee, Galen Murray, Yuree Noh, Johannes Urpelainen, Joseph Van Horn {{% staticref "files/IndiaPowerMAIN_Group.pdf" %}}Political Obstacles to Economic Reform: Comparative Evidence from Twenty Indian States{{% /staticref %}}.
+
+
